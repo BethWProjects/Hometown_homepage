@@ -131,3 +131,13 @@ img {
 #guide, #guide-title, #guide-description {
     color: #1D3557;
 }
+
+@media screen and (max-width: 500px) {
+    .all-activities {
+        flex-direction: column;
+    }
+    .activity-description {
+        width: 320px;
+    }
+}
+    
