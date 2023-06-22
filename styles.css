@@ -92,5 +92,44 @@ img {
 
 #guide-section {
     background-color: #A8DADC;
-    margin: 0;
+    margin: 50px auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 294px;
+}
+
+.guide-description {
+    margin: 0px 11px 0px 7px; 
+}
+
+#img-guide {
+    width: 180px;
+    height: 248px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 23px 0px 23px 13px;
+}
+
+#guide-title {
+    margin: 0px;
+    padding: 0px;
+    color: #1D3557;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#guide-description {
+    color: #1D3557;
+    font-size: 16px;
+    font-style: italic;
+    margin: 14px, 17px, 26px, 0px;
+}
+
+#guide {
+    color: #1D3557;
+    font-size: 16px;
+    font-weight: 700;
 }
