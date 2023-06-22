@@ -1,11 +1,9 @@
 /**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
+Palette: 
 LIGHT: #F1FAEE
 AQUA: #A8DADC
 LIGHT BLUE: #457B9D
 DARK BLUE: #1D3557
-
 */
 
 body {
@@ -49,7 +47,6 @@ body {
 #activities-section {
     background-color: #F1FAEE;
     margin: 0;
-    /* height: 27.5vh; */
 }
 
 h3 {
@@ -102,7 +99,7 @@ img {
 }
 
 .guide-description {
-    margin: 0px 11px 0px 7px; 
+    margin: 0px 11px 0px 7px;
 }
 
 #img-guide {
@@ -114,22 +111,23 @@ img {
 }
 
 #guide-title {
-    margin: 0px;
+    margin-top: 26px;
     padding: 0px;
-    color: #1D3557;
     font-size: 24px;
     font-weight: 700;
 }
 
 #guide-description {
-    color: #1D3557;
     font-size: 16px;
     font-style: italic;
-    margin: 14px, 17px, 26px, 0px;
+    margin: 14px 0px 26px 0px;
 }
 
 #guide {
-    color: #1D3557;
     font-size: 16px;
     font-weight: 700;
+}
+
+#guide, #guide-title, #guide-description {
+    color: #1D3557;
 }
