@@ -57,12 +57,14 @@ h3 {
     font-weight: 700;
 }
 
+
 .all-activities {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 0px 10px 0px 10px;
 }
+
 .activities {
     display: flex;
     flex-direction: column;
@@ -132,9 +134,16 @@ img {
     color: #1D3557;
 }
 
-@media only screen and (min-width: 270px) and (max-width:700px) {
+@media only screen and (max-width: 415px) {
     .all-activities {
         flex-direction: column;
+    }
+    #description {
+        max-width: 320px;
+        font-size: 20px;
+    }
+    #guide-section {
+        max-width: 90vw;
     }
 }
     
