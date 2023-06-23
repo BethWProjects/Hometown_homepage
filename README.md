@@ -1,7 +1,7 @@
 # Hometown_homepage
 
 ## Overview
-Welcome to my Favorite Town CSS project.  Here, I practiced utilizing CSS skills to organize and center my content on the page.
+Welcome to my Favorite Town CSS project.  Here, I practiced utilizing CSS skills to organize and center my content on the page, including adding media queries to add a fully responsive design.
 
 ## Deployed Link
 Check out my favorite town project here!
